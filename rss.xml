@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Last minute ponuda</title>
+			<description>50% popusta na sve aranžmane</description>
+			<link>index</link>
+		</item>
+		<item>
+			<title>Doček nove 2017.</title>
+			<description>Uskoro</description>
+			<link>index</link>
+		</item>
+	</channel>
+</rss>

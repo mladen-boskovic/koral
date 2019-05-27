@@ -1,0 +1,556 @@
+*{margin:0px; padding:0px;}
+.cleaner{clear:both;}
+body{font-family:arial, sans-serif;
+background-image:url(images/body.jpg);
+background-repeat:repeat;}
+
+#okvir{width:1366px;
+margin:0 auto;}
+
+#header1{width:1366px;
+height:300px;
+background-image:url(images/header.jpg);}
+
+#header2{width:1366px;
+height:65px;
+float:left;}
+
+#header2-levo{width:133px;
+height:65px;
+float:left;}
+
+#logo{width:250px;
+height:65px;
+float:left;}
+
+#logo-slika{width:94px;
+height:65px;
+float:left;}
+
+#logo img{padding:5px 0px 5px 0px;}
+#logo img:hover{opacity:0.5;}
+
+#logo-tekst1{width:156px;
+height:65px;
+float:left;}
+
+#logo-tekst2{width:146px;
+height:55px;
+padding:5px;}
+
+#logo-tekst2 a{text-decoration:none;}
+#logo-tekst2 a:link{color:black;}
+#logo-tekst2 a:hover{color:rgba(0, 0, 0, 0.5);}
+#logo-tekst2 a:visited{color:black;}
+
+
+#meni1{width:600px;
+height:65px;
+float:left;}
+
+#meni2{width:600px;
+height:40px;
+background:rgba(50, 50, 100, 0.5);
+border-radius:10px;
+padding-top:20px;}
+
+#meni2 ul li{list-style-type:none;
+display:inline;
+padding:13px;}
+#meni2 ul li a{text-decoration:none;
+font-size:18px;}
+#meni2 ul li a:link{color:white;}
+#meni2 ul li a:hover{background-color:rgba(0, 0, 0, 0.5);
+border-radius:5px;}
+#meni2 ul li a:visited{color:white;}
+
+#search1{width:250px;
+height:65px;
+float:left;}
+
+#search2{width:250px;
+height:25px;
+margin:20px 0px 20px 0px;}
+
+#search2-levo{width:30px;
+height:25px;
+float:left;}
+
+#search2-polje{width:175px;
+height:25px;
+float:left;}
+
+#search2-slika{width:25px;
+height:25px;
+float:left;}
+
+#search2-polje form input{width:175px;
+height:25px;
+border-radius:5px;
+border-width:1px;
+border-color:#ffffff;
+background-color:#5E8CA3;}
+
+#search2-desno{width:20px;
+height:25px;
+float:left;}
+
+#header2-desno{width:133px;
+height:65px;
+float:left;}
+
+#centar-index{width:1366px;
+height:655px;}
+
+#centar-levo-index{width:183px;
+height:655px;
+float:left;}
+
+#sadrzaj-index{width:1000px;
+float:left;
+height:655px;}
+
+#sadrzaj-levo-index{width:300px;
+height:655px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#o-autoru{width:300px;
+height:25px;
+border-bottom:1px solid #0D1721;}
+
+#o-autoru a{text-decoration:none; font-size:18px;}
+#o-autoru a:link{color:#0D1721;}
+#o-autoru a:visited{color:#0D1721;}
+#o-autoru a:hover{background-color:rgba(0, 0, 0, 0.25);
+border-radius:5px;}
+
+#o-autoru table{width:300px;
+height:25px;}
+
+#o-autoru table tr td{text-align:center;}
+
+#logovanje{width:300px;
+height:75px;
+border-bottom:1px solid #0D1721;
+margin-top:10px;}
+
+#logovanje table{width:300px;
+height:75px;}
+
+#logovanje table tr td{text-align:center;}
+
+#logovanje table tr td input{border-radius:5px;
+border-width:1px;
+border-color:#caa7ce;
+background-color:rgba(255, 255, 255, 0.75);
+color:#0D1721;}
+
+#anketa{width:300px;
+height:165px;
+color:#0D1721;
+margin-top:15px;
+border-bottom:1px solid #0D1721;}
+
+#submit-id2{margin-left:110px;}
+
+#anketa p{font-size:17px;
+color:#0D1721;
+text-align:center;
+padding:0px 10px 0px 10px;}
+
+#anketa table{width:300px;
+padding-left:40px;}
+#anketa table tr td input{border-radius:5px;
+border-width:1px;
+border-color:#caa7ce;
+background-color:rgba(255, 255, 255, 0.75);
+color:#0D1721;}
+
+#anketa input{border-radius:5px;
+border-width:1px;
+border-color:#caa7ce;
+background-color:rgba(255, 255, 255, 0.75);
+color:#0D1721;}
+
+#sadrzaj-desno-index1{width:700px;
+float:left;
+height:655px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#sadrzaj-desno-index2{width:680px;
+height:650px;
+margin:5px 10px 0px 10px;}
+
+#sadrzaj-desno-index2 p{color:#0D1721;
+text-align:justify;
+font-size:17px;
+text-indent:50px;}
+
+#sadrzaj-desno-index2 img{display:block;
+margin:auto;}
+
+#centar-desno-index{width:183px;
+float:left;
+height:655px;}
+
+#footer{width:1366px;
+height:50px;
+background:rgba(0, 0, 0, 0.75);
+border-radius:20px 20px 0px 0px;
+color:white;}
+
+
+#footer-gore{width:1366px;
+height:25px;}
+
+#footer-gore ul{padding:5px 145px 5px 145px;}
+#footer-gore ul li{list-style-type:none;
+display:inline;
+padding-left:38px;
+padding-right:38px;}
+#footer-gore ul li a{text-decoration:none;
+font-size:15px;}
+#footer-gore ul li a:link{color:white;}
+#footer-gore ul li a:hover{background-color:rgba(94, 140, 163, 0.75);
+border-radius:5px;}
+#footer-gore ul li a:visited{color:white;}
+
+#footer-dole{width:1366;
+height:25px;}
+
+#footer-dole p{padding:5px 620px 5px 620px;
+font-size:15px;}
+#footer-dole p a{text-decoration:none;}
+#footer-dole p a:link{color:white;}
+#footer-dole p a:hover{color:white;}
+#footer-dole p a:visited{color:white;}
+
+#sadrzaj-kontakt{width:1000px;
+float:left;
+height:310px;}
+
+#sadrzaj-levo-kontakt{width:300px;
+height:310px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#sadrzaj-desno-kontakt1{width:700px;
+float:left;
+height:310px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#sadrzaj-desno-kontakt2{width:655px;
+height:310px;
+color:#0D1721;
+font-size:20px;
+margin:0px 22.5px 0px 22.5px;}
+
+#sadrzaj-desno-kontakt2 p{padding-top:10px;}
+
+#sadrzaj-desno-kontakt2 table{padding:10px 105px 0px 105px;}
+#sadrzaj-desno-kontakt2 table tr td input{border-radius:5px;
+border-width:1px;
+border-color:#caa7ce;
+background-color:rgba(255, 255, 255, 0.75);
+height:20px;
+color:#0D1721;}
+
+#sadrzaj-desno-kontakt2 table tr td textarea{border-radius:5px;
+border-width:1px;
+border-color:#caa7ce;
+background-color:rgba(255, 255, 255, 0.75);
+height:66px;}
+
+#centar-kontakt{width:1366px;
+height:310px;}
+
+#centar-levo-kontakt{width:183px;
+height:310px;
+float:left;}
+
+#centar-desno-kontakt{width:183px;
+float:left;
+height:310px;}
+
+#sadrzaj-o-nama{width:1000px;
+float:left;
+height:455px;}
+
+#sadrzaj-levo-o-nama{width:300px;
+height:455px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#sadrzaj-desno-o-nama1{width:700px;
+float:left;
+height:455px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#sadrzaj-desno-o-nama2{width:690px;
+height:450px;
+margin:5px 5px 0px 5px;}
+
+#sadrzaj-desno-o-nama2 h2{color:#0D1721;
+text-align:center;}
+
+#sadrzaj-desno-o-nama2 p{color:#0D1721;
+text-align:justify;
+font-size:17px;
+text-indent:50px;}
+
+#sadrzaj-desno-o-nama2 img{display:block;
+margin:auto;}
+
+#centar-o-nama{width:1366px;
+height:455px;}
+
+#centar-levo-o-nama{width:183px;
+height:455px;
+float:left;}
+
+#centar-desno-o-nama{width:183px;
+float:left;
+height:455px;}
+
+#sadrzaj-letovanje{width:1000px;
+float:left;
+height:450px;}
+
+#sadrzaj-levo-letovanje{width:300px;
+height:450px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#sadrzaj-desno-letovanje{width:700px;
+float:left;
+height:450px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#sadrzaj-desno-letovanje h2{color:#0D1721;
+text-align:center;
+padding-top:5px;}
+
+#centar-letovanje{width:1366px;
+height:450px;}
+
+#centar-levo-letovanje{width:183px;
+height:450px;
+float:left;}
+
+#centar-desno-letovanje{width:183px;
+float:left;
+height:450px;}
+
+.letovanje{width:690px;
+height:100px;
+margin:15px 5px 30px 5px;}
+
+.letovanje-levo1{width:540px;
+height:100px;
+float:left;}
+
+.letovanje-levo2{width:520px;
+height:100px;
+margin:0px 20px 0px 0px;}
+
+.letovanje-levo2 p{color:#0D1721;
+text-align:justify;
+font-size:17px;
+text-indent:50px;}
+
+.letovanje-levo2 a{margin-left:439px;
+text-decoration:none;}
+.letovanje-levo2 a:link{color:#0000CD;}
+.letovanje-levo2 a:hover{background-color:rgba(0, 0, 0, 0.25);
+border-radius:5px;}
+.letovanje-levo2 a:visited{color:#0000CD;}
+
+.letovanje-desno{width:150px;
+height:100px;
+float:left;}
+
+.letovanje-desno a img:hover{opacity:0.5;}
+
+#sadrzaj-zimovanje{width:1000px;
+float:left;
+height:450px;}
+
+#sadrzaj-levo-zimovanje{width:300px;
+height:450px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#sadrzaj-desno-zimovanje{width:700px;
+float:left;
+height:450px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#sadrzaj-desno-zimovanje h2{color:#0D1721;
+text-align:center;
+padding-top:5px;}
+
+#centar-zimovanje{width:1366px;
+height:450px;}
+
+#centar-levo-zimovanje{width:183px;
+height:450px;
+float:left;}
+
+#centar-desno-zimovanje{width:183px;
+float:left;
+height:450px;}
+
+.zimovanje{width:690px;
+height:100px;
+margin:15px 5px 30px 5px;}
+
+.zimovanje-levo1{width:540px;
+height:100px;
+float:left;}
+
+.zimovanje-levo2{width:520px;
+height:100px;
+margin:0px 20px 0px 0px;}
+
+.zimovanje-levo2 p{color:#0D1721;
+text-align:justify;
+font-size:17px;
+text-indent:50px;}
+
+.zimovanje-levo2 a{margin-left:439px;
+text-decoration:none;}
+.zimovanje-levo2 a:link{color:#0000CD;}
+.zimovanje-levo2 a:hover{background-color:rgba(0, 0, 0, 0.25);
+border-radius:5px;}
+.zimovanje-levo2 a:visited{color:#0000CD;}
+
+.zimovanje-desno{width:150px;
+height:100px;
+float:left;}
+
+.zimovanje-desno a img:hover{opacity:0.5;}
+
+#sadrzaj-o-autoru{width:1000px;
+float:left;
+height:510px;}
+
+#sadrzaj-levo-o-autoru{width:300px;
+height:510px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#sadrzaj-desno-o-autoru1{width:700px;
+float:left;
+height:510px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#sadrzaj-desno-o-autoru2{width:690px;
+height:505px;
+margin:5px 5px 0px 5px;}
+
+#sadrzaj-desno-o-autoru2 h2{color:#0D1721;
+text-align:center;}
+
+#sadrzaj-desno-o-autoru2 p{color:#0D1721;
+text-align:justify;
+font-size:17px;
+text-indent:50px;}
+
+#sadrzaj-desno-o-autoru2 img{display:block;
+margin:auto;}
+
+#centar-o-autoru{width:1366px;
+height:510px;}
+
+#centar-levo-o-autoru{width:183px;
+height:510px;
+float:left;}
+
+#centar-desno-o-autoru{width:183px;
+float:left;
+height:510px;}
+
+#sadrzaj-galerija{width:1000px;
+float:left;
+height:555px;}
+
+#sadrzaj-levo-galerija{width:300px;
+height:555px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#sadrzaj-desno-galerija1{width:700px;
+float:left;
+height:555px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#centar-galerija{width:1366px;
+height:555px;}
+
+#centar-levo-galerija{width:183px;
+height:555px;
+float:left;}
+
+#centar-desno-galerija{width:183px;
+float:left;
+height:555px;}
+
+#sadrzaj-desno-galerija2{width:690px;
+height:550px;
+margin:5px 5px 0px 5px;}
+
+#sadrzaj-desno-galerija2 h2{color:#0D1721;
+text-align:center;}
+
+#sadrzaj-desno-galerija2 table tr td a img:hover{opacity:0.5;}
+
+#sadrzaj-galerija-main{width:1000px;
+float:left;
+height:325px;}
+
+#sadrzaj-levo-galerija-main{width:300px;
+height:325px;
+float:left;
+background-color:rgba(83, 113, 143, 0.4);
+border-radius:20px 0px 0px 20px;}
+
+#sadrzaj-desno-galerija1-main{width:700px;
+float:left;
+height:325px;
+background-color:rgba(83, 113, 143, 0.3);
+border-radius:0px 20px 20px 0px;}
+
+#centar-galerija-main{width:1366px;
+height:325px;}
+
+#centar-levo-galerija-main{width:183px;
+height:325px;
+float:left;}
+
+#centar-desno-galerija-main{width:183px;
+float:left;
+height:325px;}
+
+#sadrzaj-desno-galerija2-main{width:510px;
+height:320px;
+margin:5px 95px 0px 95px;}
+
+#sadrzaj-desno-galerija2-main h2{color:#0D1721;
+text-align:center;}
+
+#sadrzaj-desno-galerija2-main table tr td a img:hover{opacity:0.5;}
